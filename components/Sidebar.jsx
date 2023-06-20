@@ -7,7 +7,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <Image width={300} height={300} src="/assets/img/chickenn.png" alt="Imagen logotipo"
+      <Image width={200} height={200} src="/assets/img/logo.webp" alt="Imagen logotipo"
       />
 
       <nav className="mt-8">

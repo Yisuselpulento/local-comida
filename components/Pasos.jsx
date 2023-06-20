@@ -14,7 +14,7 @@ const pasos = [
 
 
       return (
-        <div className='flex justify-between mb-5'>
+        <div className='flex justify-between mb-5 flex-wrap'>
             {pasos.map(paso => (
                 <div className={`${pathMenu == paso.paso ? "text-blue-400" : ""}`}>
                  <button 

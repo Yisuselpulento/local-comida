@@ -22,19 +22,19 @@ const ModalProducto = () => {
   
 
   return (
-    <div className='md:flex gap-10'>
-        <div className='md:w-1/3'>
+    <div className='flex md:gap-10 gap-2 flex-col md:flex-row  items-center '>
+        <div className='md:w-1/3 w-[150px] '>
             <Image 
                 width={300}
-                height={400}
+                height={300}
                 alt={`imagen producto ${producto.nombre}`}
                 src={`/assets/img/${producto.imagen}.jpg`}
             />
 
         </div>
         
-        <div className='md:w-2/3'>
-            <div className='flex justify-end'>
+        <div className='md:w-2/3 '>
+            <div className='flex md:justify-end '>
                 <button
                     onClick={handleChangeModal}
                 >
